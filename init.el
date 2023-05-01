@@ -1,3 +1,6 @@
+(add-to-list 'load-path "~/.emacs.d/modules/org-mode/lisp")
+(require 'org)
+
 (require 'org-tempo)  ;; accelerate inserting org-blocks
 (require 'org-protocol)
 
